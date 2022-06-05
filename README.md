@@ -64,17 +64,9 @@ To check for too wide or narrow segmentation shown in figure 3, we can check the
   </figcaption>
 </figure>
 
-The images are then cropped based on the generated mask
-and the segregated into COVID and non-COVID classes.
+The images are then cropped based on the generated mask and the segregated into COVID and non-COVID classes.
 
-The pre-processed dataset consists of 8,527 images and
-31,105 for the COVID class and non-COVID class (39,632
-total images), which is still an unbalanced dataset. These
-images have reduced in size and the amount of information
-they contain, making them suitable for classification. A helper
-function reads the processed images separated into different
-labels, resizes them to 256 × 256 pixels and splits them into
-test and validation sets.
+The pre-processed dataset consists of 8,527 images and 31,105 for the COVID class and non-COVID class (39,632 total images), which is still an unbalanced dataset. These images have reduced in size and the amount of information they contain, making them suitable for classification. A helper function reads the processed images separated into different labels, resizes them to 256 × 256 pixels and splits them into test and validation sets.
 
 ## Classification
 
